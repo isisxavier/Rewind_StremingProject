@@ -1,0 +1,110 @@
+body{
+    height: 100vh;
+    margin: 0;
+    background-color: #03223A ;
+}
+
+li{
+    color: white;
+}
+
+li:hover{
+    color: #25AED0;
+}
+
+.listas{
+    display: flex;
+    color: white;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 10%;
+}
+
+.container-sair{
+    display: flex;
+    color: white;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 80%;
+}
+
+.sair{
+    color: white;
+}
+
+.sair:hover{
+    color: #25AED0;
+    font-size: medium;
+}
+
+
+.imgBack{
+   background-image: url(../img/header-arcan.jpg);
+    display: flex;
+    justify-content: center;
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 26vh;
+    padding: 15vh;
+    border-bottom: 1px solid #25AED0;
+}
+
+.coiso{
+    
+ 
+    color: white;
+}
+
+.vid{
+    display: flex;
+    width: 100%;
+}
+
+.container-movie{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.poster{
+    background-color: rgba(20, 20, 20, 0.6);
+    width: 15vw;
+    padding: 6px;
+    height: 20vw;
+}
+
+.poster:hover{
+    width: 16vw;
+    height: 21vw;
+}
+
+
+#first{
+    padding-left: 6vh;
+}
+
+#last{
+    padding-right: 6vh;
+}
+
+.title{
+    display: flex;
+    width: 19%;
+    justify-content:center;
+    color: white; 
+}
+
+.tit{
+    display: flex;
+    width: 10%;
+    justify-content:center;
+    color: white; 
+}
+
+
+
+

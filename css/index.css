@@ -1,0 +1,99 @@
+body{
+    height: 125vh;
+    margin: 0;
+    background-color: #03223A ;
+}
+
+h2{
+    background-color: #25AED0;
+    color: white;
+    right: 0px;
+    position: absolute;
+    padding: 5px;
+    top: 20%;
+    font-size: medium;
+    border-radius: 5px;
+}
+
+h2:hover{
+    background-color: #044B77;   
+}
+
+
+.imageBack{
+    background-image: url(../img/fund.jpg); 
+}
+
+
+.parag{
+    width: 40vw;
+    display: flex;
+    align-content: center;
+    color: white;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: xxx-large;
+    justify-content: center;
+    
+
+}
+
+.cadast{
+    display: flex;
+    background-color: #25AED0;
+    border-radius: 5px;
+    font-size: 20px;
+    ;
+    padding: 2vh 12vh 2vh 12vh;
+    
+}
+
+.cadast:hover{
+    background-color: #044B77;
+    border-color: 2px #25AED0;
+}
+
+a{
+    color: white;
+    
+}
+
+.planos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #141414;
+    border-bottom: 1px solid #25AED0;
+    box-shadow: 2px 2px 23px black;
+}
+
+.planos-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pla{
+    font-size: xx-large;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    color: white;
+    
+}
+
+.card{
+    display: flex;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 7vh 18.2vh 7vh 17vh;
+    flex-direction: column;
+    border-left: 1px  solid #25AED0;
+
+    color: white;
+    
+    
+}
+
+.h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

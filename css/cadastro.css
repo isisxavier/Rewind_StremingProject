@@ -1,0 +1,110 @@
+
+body{
+    height: 100vh;
+    background-color: #03223A ;
+    margin-top: 2%;
+}
+
+
+.imageBack{
+    background-image: url(../img/fundo3.jpg);
+    
+}
+
+.container-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#titulo{
+    color: white;
+    margin-left: 7%;
+}
+
+#subtitulo{
+    color: white;
+    margin-left: 10%;
+}
+
+fieldset{
+    border: 0;
+}
+
+input, h3{
+    border-radius: 5px;
+}
+
+.campo{
+    margin-bottom: 1em;
+}
+
+.campo label{
+    margin-bottom: 0.2em;
+    color: white;
+    display: block;
+}
+
+fieldset.grupo .campo{
+    float: left;
+    margin-right: 1em;
+    
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo input[type="password"]{
+    padding: 0.2em;
+    border: 1px solid #25AED0;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+}
+
+.campo input:focus{
+    background: #84c6f8;
+}
+
+.botao{
+    background: #25AED0;
+    border: 0;
+    margin-bottom: 1em;
+    color: white;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.botao:hover{
+    background: #84c6f8;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+    color: black;
+}
+
+.container-form{
+    display: flex;
+    background-color: rgba(3, 34, 58,0.8); 
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.container-entrar{
+    display: flex;
+    color: white;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 90%;
+}
+
+.entrar{
+    color: white;
+}
+
+.entrar:hover{
+    color: #25AED0;
+    font-size: medium;
+}

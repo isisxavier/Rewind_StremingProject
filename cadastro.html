@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="css/cadastro.css">
+    <link rel="stylesheet" href="css/global.css">
+    
+    <title>Cadastro</title>
+</head>
+<body>
+
+    <header>
+        <div class="menu">
+            <ul>
+                <a href="index.html">
+                <h1 id="titu" class="x">Rewind</h1></a>
+           
+                <div class="container-entrar">
+                    <a href="login.html">
+                    <li class="entrar">Entrar</li></a>
+                </div>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <div class="imageBack">
+
+        <div class="container-form">    
+        <div>
+            <h1 id="titulo">Cadastro Rewind</h1>
+            <p id="subtitulo">Complete com suas informações</p>
+        </div>
+
+        <form>
+            <fieldset class="grupo">
+                <div class="campo">
+                    <label><strong>Nome</strong></label>
+                    <input type="text" name="nome" id="nome" required>
+                </div>
+
+                <div class="campo">
+                    <label><strong>Sobrenome</strong></label>
+                    <input type="text" name="sobrenome" id="sobrenome" required>
+                </div>
+            </fieldset>
+
+            <fieldset class="grupo">
+
+            <div class="campo">
+                <label><strong>Email</strong></label>
+                <input type="email" name="email" id="email" required>
+            </div>
+
+            <div class="campo">
+                <label><strong>Senha</strong></label>
+                <input type="password" name="senha" id="passwrd" required>
+            </div>
+            </fieldset>
+
+            <div class="campo">
+                <label><strong>Forma de Pagamento:</strong></label>
+                <label>
+                    <input type="radio" name="pagamento" value="credito">Crédito
+                </label>
+                <label>
+                    <input type="radio" name="pagamento" value="debito">Débito
+                </label>
+                <label>
+                    <input type="radio" name="pagamento" value="boleto">Boleto
+                </label>
+            </div>
+
+            <a href="feed.html">
+            <h3 class="botao">Cadastrar</h3></a>
+
+        </form>
+        </div>
+    </div>
+    </main>
+
+    <footer>
+        <div class="bot">
+            <p>
+                ® 2021 Rewind, Rewind e IFPE. Todos os direitos reservados. Serviço de assinatura paga. Conteúdo sujeito a disponibilidade.
+            </p>
+
+        </div>
+    </footer>
+
+
+    
+</body>
+</html>

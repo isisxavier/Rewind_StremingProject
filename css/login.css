@@ -1,0 +1,97 @@
+body{
+    height: 100vh;
+    margin: 0;
+    background-color: #03223A ;
+}
+
+h2{
+    background-color: #25AED0;
+    color: white;
+    right: 0px;
+    position: absolute;
+    padding: 5px;
+    top: 20%;
+    font-size: medium;
+    border-radius: 5px;
+}
+
+h2:hover{
+    background-color: #044B77;
+    
+
+}
+
+.imageBack{
+background-image: url(../img/fundo3.jpg);
+}
+
+.formulario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input{
+    display: flex;
+    width: 31vh;
+    height: 4vh;
+    text-align: center;
+    border-radius: 2%;
+    border-width: 0vh;
+}
+
+fieldset{
+    display: flex;
+    border-radius: 2%;
+    background-color: rgba(10,23,55,0.9);
+    border-width: 0vh;
+    height: 50vh;
+}
+
+.enter{
+    display: flex;
+    width: 25vh;
+    height: 3vh;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: #25AED0;;
+    border-width: 0vh;
+    color: white;
+}
+
+.enter:hover{
+    width: 25.2vh;
+    height: 3.2vh;
+    background-color: #84c6f8;
+    color: black;
+}
+
+h1{
+    color: white;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: medium;
+}
+
+a{
+    color: #25AED0;
+    font-size: medium;
+}
+
+a:hover{
+    color: #84c6f8;
+}
